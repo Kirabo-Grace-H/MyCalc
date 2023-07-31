@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyCalc" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.MyCalc" parent="Base.Theme.MyCalc" />
+   <style name="theme.MyOwnTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+      <item name="android:statusBarColor">@color/StatusBarColorDark</item>
+       <!--<item name="colorPrimaryDark">#E91E63</item>-->
+       <!--appbar/actionbar-->
+       <item name="colorPrimary">#88120A</item>
+   </style>
+
+</resources>
